@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cadastro-container">
+        <div class="lado-esquerdo">
+            <a href="#">Perfil</a> 
+            <a href="#">Qual seu pet</a>
+            <a href="#">Sobre seu pet</a>
+            <a href="#">Confirmação</a>
+            <img src="../img/dog-register.png" alt="">
+        </div>
+        <div class="lado-direito">
+            <form action="">
+                <h1>Conte-nos um pouco sobre você</h1>
+                <div class="login-nome">
+                    <label for="nome">Nome
+                        <input type="text" placeholder="Primeiro Nome" name="nome">
+                    </label>
+                    <label for="sobrenome">Sobrenome
+                        <input type="text" name="sobrenome" placeholder="Sobrenome">
+                    </label>
+                </div>
+                <div class="tel-email">
+                    <label for="telefone">Telefone
+                        <input type="text" name="telefone" id="tel" placeholder="(xx) 99999-9999">
+                    </label>
+                    <label for="email">Email
+                        <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    </label>
+                </div>
+                <label for="endereco">Endereço
+                    <input type="text" name="end" id="end" placeholder="Ex: Rua Alberto de Noronha">
+                </label>
+                <div class="num-cidade">
+                    <label for="num">Núemro
+                        <input type="number" name="num" id="num" placeholder="Número residencial">
+                    </label>
+                    <label for="">Cidade
+                        <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+                    </label>
+                </div>
+                <div id="lembrar">
+                    <input type="checkbox" name="check" id="check">
+                    <label for="checkbox" id="lem">Lembrar minha senha</label>
+                </div>
+                <div class="foto">
+                    <img src="../img/icone.png" alt=""><label for='selecao-arquivo'>Selecionar uma foto &#187;</label>
+                    <input id='selecao-arquivo' type='file'>
+                </div>
+                <input type="submit" value="ENVIAR">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

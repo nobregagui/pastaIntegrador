@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica;
+    border: none;
+    color: #323232;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #08558b;
+    
+}
+
+input[type='file'] {
+    display: none;
+    cursor: pointer;
+}
+.foto label {
+    background-color: #3498db;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    padding: 6px 20px
+}
+
+#cadastro-container {
+    display: flex;
+    padding-top: 120px;
+    padding-right: 361px;
+    margin-left: 300px;
+    width: 424px;
+    height: 600px;
+}
+
+
+.lado-esquerdo {
+    text-align: right;
+    padding-right: 200px;
+    padding-left: 200px;
+    box-shadow: 0px 0px 7px 0px;
+    border-radius: 11px;
+    text-align: center;
+    width: 654px;
+    height: 840px;
+    display: grid;
+
+}
+
+.lado-direito {
+    width: 654px;
+    height: 840px;
+}
+
+.lado-direito input {
+    margin-top: 10px;
+}
+
+.lado-esquerdo a {
+    padding-bottom: 50px;
+    padding-top: 40px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.lado-esquerdo a:focus {
+    color: #6C63FF;
+}
+
+.lado-esquerdo img {
+    padding-top: 150px;
+}
+
+.lado-direito label {
+    color: #fff;
+}
+
+
+form {
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px;
+    width: 670px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    left: 34%;
+    background-color: #6C63FFCC;
+}
+
+form label {
+    padding-bottom: 20px;
+}
+
+form h1 {
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+form input {
+    width: 300px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+form div {
+    margin-right: 20px;
+}
+
+label, input {
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #313131;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.login-nome {
+    display: flex;
+}
+
+.tel-email {
+    display: flex;
+}
+
+#end {
+    width: 631px;
+}
+
+#lembrar {
+    display: flex;
+}
+
+#lembrar input {
+    width: 30px;
+}
+
+#lembrar label {
+    margin-left: 4px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+
+#lem {
+    margin-right: 60px;
+}
+
+.num-cidade {
+    display: flex;
+}
+
+.foto label {
+    width: 180px;
+}
+
+.foto {
+    display: flex;
+}
+
+.foto img {
+    height: 24px;
+    margin-top: 12px;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #fead55;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 325px;
+    margin-top: 80px;
+}
